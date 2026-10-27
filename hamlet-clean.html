@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Open Mic, Open Rules</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ece9df;--ink:#111110;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#111110;--ink:#ece9df}}
+:root[data-theme="dark"]{--paper:#111110;--ink:#ece9df}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;overflow:hidden;background:var(--ink)}
+body{font:400 21px/1.6 "Newsreader",Georgia,serif}
+#deck{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior:contain}
+#deck::-webkit-scrollbar{display:none}
+.s{flex:0 0 100%;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow-y:auto;position:relative;padding:72px 28px 56px;display:flex}
+.paper{background:var(--paper);color:var(--ink)}.ink{background:var(--ink);color:var(--paper)}
+.in{margin:auto;width:100%;max-width:34rem}
+.top{position:absolute;left:28px;right:28px;top:calc(16px + env(safe-area-inset-top,0px));display:flex;justify-content:space-between;font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.6}
+.bar{position:absolute;left:0;bottom:0;height:3px;background:currentColor;opacity:.8}
+.lab{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;margin:0 0 16px}
+h1,h2{font:400 clamp(56px,16vw,120px)/.92 "Instrument Serif",serif;letter-spacing:-.02em;margin:0 0 22px}
+h2{font-size:clamp(52px,14vw,100px)}
+em{font-style:italic}
+.big{font:400 clamp(34px,9vw,56px)/1.08 "Instrument Serif",serif;letter-spacing:-.01em;margin:0 0 18px}
+p{margin:0 0 1em}
+.sm{font-size:17px;opacity:.75}
+.q{border-left:3px solid currentColor;padding-left:18px;margin:20px 0;font-style:italic}
+.l{border-top:1px solid currentColor;padding:14px 0;display:grid;grid-template-columns:3.2rem 1fr;gap:10px}
+.l:last-child{border-bottom:1px solid currentColor}
+.l b{font:400 34px/1 "Instrument Serif",serif}
+.st{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;border-block:1px solid currentColor;padding:18px 0;margin:22px 0}
+.st b{display:block;font:400 clamp(44px,13vw,70px)/1 "Instrument Serif",serif}
+.st span{font-size:13px;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.clk{font:400 clamp(70px,22vw,120px)/1 "Instrument Serif",serif}
+.nt{transition:background-color .6s,color .6s}.nt.sc{background:var(--paper);color:var(--ink)}
+a.bt{display:block;border:1px solid currentColor;color:inherit;text-decoration:none;padding:16px 18px;margin-top:12px;font:400 28px "Instrument Serif",serif}
+.hint{margin-top:26px;font-size:15px;letter-spacing:.14em;text-transform:uppercase;opacity:.65}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease;transition-delay:calc(var(--i,0)*90ms)}
+.s.on .rv{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{transition:none;opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="deck">
+
+<section class="s paper"><div class="in">
+<p class="lab rv">From the meeting records</p>
+<h1 class="rv">Open mic,<br><em>open rules.</em></h1>
+<p class="big rv" style="font-size:clamp(26px,7vw,38px)">Two stories. One about a prayer. One about a bird.</p>
+<p class="hint rv">Swipe →</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">Chapter one</p>
+<h2 class="rv">The <em>invocation.</em></h2>
+<p class="big rv">What happens when anyone can sign up to open a meeting with a prayer?</p>
+</div></section>
+
+<section class="s paper"><div class="in">
+<p class="lab rv">Ottumwa, Iowa · Oct 6, 2026</p>
+<p class="big rv">A former council member steps to the mic.</p>
+<p class="rv">Matthew Dalbey signed up, as any resident can. He reads:</p>
+<p class="q rv">“Dear Dark Father… unbowed and unfettered by arcane doctrines… Luciferian impulse to eat of the tree of knowledge… It is done. Hail Satan.”</p>
+<p class="sm rv">The text comes from The Satanic Temple, a non-theistic group that uses Satan as a literary symbol of dissent.</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">Then the room reacts</p>
+<div class="l rv"><b>1</b><span>A pastor calls out: “reverse this curse.”</span></div>
+<div class="l rv"><b>2</b><span>The mayor calls for silence.</span></div>
+<div class="l rv"><b>3</b><span>The council had opened the mic in January (Res 18-2026). The lone dissenter had warned this could happen.</span></div>
+<div class="l rv"><b>4</b><span>Dalbey is rebooked for November.</span></div>
+</div></section>
+
+<section class="s paper"><div class="in">
+<p class="lab rv">Pensacola, Florida · 2016</p>
+<p class="big rv">Same script.<br><em>Different town.</em></p>
+<p class="rv">David Suhor sings it in a hooded robe. The room answers with the Lord’s Prayer. About a third walk out.</p>
+<p class="q rv">“Thank you for not interrupting me.”</p>
+<p class="sm rv">Similar cases: San Marcos TX, Battle Ground WA, Kenai Peninsula AK. In Tulsa OK, a pagan Medusa invocation was mislabeled “satanic.”</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">The rule · Town of Greece v. Galloway, 2014</p>
+<p class="big rv" style="font-size:clamp(38px,10.5vw,70px)">Open the floor to any volunteer, and you <em>can’t screen</em> by content or creed.</p>
+<p class="rv" style="margin-top:20px">So a council has only three exits:</p>
+<div class="l rv"><b>1</b><span>Keep the mic open for everyone.</span></div>
+<div class="l rv"><b>2</b><span>Switch to a moment of silence.</span></div>
+<div class="l rv"><b>3</b><span>Invite official chaplains only.</span></div>
+</div></section>
+
+<section class="s paper"><div class="in">
+<p class="lab rv">Chapter two</p>
+<h2 class="rv">The <em>peacocks.</em></h2>
+<p class="big rv">Birds cross city lines. Rules don’t.</p>
+<p class="rv">South Florida’s peafowl are non-native, traced to escapees from Coconut Grove. They scream at 2–4 a.m., dent cars and damage roofs.</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">The scale</p>
+<div class="st rv"><div><b>8</b><span>governments</span></div><div><b>6</b><span>postures</span></div><div><b>40–50</b><span>birds, one area</span></div></div>
+<p class="big rv">One bird. Eight governments. No shared answer.</p>
+</div></section>
+
+<section class="s ink nt" id="nt"><div class="in">
+<p class="lab rv">One night, sped up</p>
+<div class="clk rv" id="ck">10 PM</div>
+<p class="big rv" id="co" style="margin-top:14px">Quiet, for now.</p>
+</div></section>
+
+<section class="s paper"><div class="in">
+<p class="lab rv">The record</p>
+<div class="l rv" style="grid-template-columns:5rem 1fr"><b>2001</b><span>Miami-Dade protects peafowl from killing and capture.</span></div>
+<div class="l rv" style="grid-template-columns:5rem 1fr"><b>2022</b><span>Loosened, but only with an approved humane plan.</span></div>
+<div class="l rv" style="grid-template-columns:5rem 1fr"><b>2026</b><span>May 5, Merritt Island. Adrian Vargas plays a 10-second scream for the commission. The state wildlife agency and the sheriff: outside our scope.</span></div>
+<p class="q rv" style="margin-top:22px">“There is currently no agency addressing this issue.”</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">Six postures, a few of them</p>
+<div class="l rv"><b>→</b><span><strong>Sanctuary.</strong> Birds are protected.</span></div>
+<div class="l rv"><b>→</b><span><strong>Sterilization.</strong> About $150k a year in Pinecrest.</span></div>
+<div class="l rv"><b>→</b><span><strong>Humane relocation.</strong> Move them under a plan.</span></div>
+<div class="l rv"><b>→</b><span><strong>“No plan.”</strong> El Portal: “right now we don’t have an answer for you.”</span></div>
+<div class="l rv"><b>→</b><span><strong>Coyote jokes.</strong> Said on the record.</span></div>
+</div></section>
+
+<section class="s paper"><div class="in">
+<p class="lab rv">Miami Shores</p>
+<p class="big rv" style="font-size:clamp(34px,9.5vw,62px)">“Those birds don’t know the difference between Miami Shores or El Portal. <em>They just are peacocks.</em>”</p>
+</div></section>
+
+<section class="s ink"><div class="in">
+<p class="lab rv">Watch it yourself</p>
+<h2 class="rv" style="font-size:clamp(46px,13vw,90px)">Both were <em>on video.</em></h2>
+<a class="bt rv" target="_blank" rel="noopener" href="https://www.myhamlet.com/district/articles/the-devil-in-the-details">The Devil in the Details ↗</a>
+<a class="bt rv" target="_blank" rel="noopener" href="https://www.myhamlet.com/district/articles/peacock-problems">Peacock Problems ↗</a>
+</div></section>
+
+</div>
+
+<script>
+const deck=document.getElementById('deck'),S=[...deck.children];let cur=0,lock=0,timer=null;
+S.forEach((s,i)=>{
+ s.querySelectorAll('.rv').forEach((e,j)=>e.style.setProperty('--i',j));
+ const t=document.createElement('div');t.className='top';t.innerHTML='<span>Hamlet / Records</span><span>'+String(i+1).padStart(2,'0')+' / '+S.length+'</span>';s.prepend(t);
+ const b=document.createElement('div');b.className='bar';b.style.width=((i+1)/S.length*100)+'%';s.append(b);
+});
+const go=i=>deck.scrollTo({left:Math.max(0,Math.min(S.length-1,i))*deck.clientWidth,behavior:'smooth'});
+// night clock (auto, only while visible)
+const H=[20,21,22,23,0,1,2,3,4,5,6],ck=document.getElementById('ck'),co=document.getElementById('co'),nt=document.getElementById('nt');
+function night(on){clearInterval(timer);if(!on){nt.classList.remove('sc');return}
+ let k=0;const step=()=>{const h=H[k%H.length],sc=h>=2&&h<=4;ck.textContent=((h%12)||12)+' '+(h<12?'AM':'PM');nt.classList.toggle('sc',sc);co.innerHTML=sc?'<em>AAAAHHH.</em> Screaming. Dented cars. Damaged roofs.':h<6||h>=20?'Quiet, for now.':'Daylight. Just birds.';k++};
+ step();timer=setInterval(step,1100)}
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+ if(e.isIntersecting){e.target.classList.add('on');cur=S.indexOf(e.target);if(e.target===nt)night(true)}
+ else{e.target.classList.remove('on');if(e.target===nt)night(false)}}),{root:deck,threshold:.6});
+S.forEach(s=>io.observe(s));
+addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(cur+1);if(e.key==='ArrowLeft')go(cur-1)});
+deck.addEventListener('wheel',e=>{const s=S[cur];if(Math.abs(e.deltaY)<=Math.abs(e.deltaX)||s.scrollHeight>s.clientHeight+2)return;e.preventDefault();if(Date.now()-lock<700)return;lock=Date.now();go(cur+(e.deltaY>0?1:-1))},{passive:false});
+</script>
+</body>
+</html>
